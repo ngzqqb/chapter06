@@ -30,6 +30,7 @@ CONFIG(debug,debug|release){
 }
 
 QMLSOURCES += $$PWD/appqml/graphical_effect/main.qml
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateBasic.qml
 
 lupdate_only{
     SOURCES += $$QMLSOURCES
