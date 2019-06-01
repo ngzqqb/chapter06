@@ -51,10 +51,10 @@ PrivateBasic{
             }
 
             PathArc{
-                radiusX : idPath.applyRadius;
+                radiusX : idPath.applyRadius ;
                 radiusY : idPath.applyRadius ;
-                x: idShape.width  ;
-                y: idPath.applyRadius  ;
+                x: idShape.width ;
+                y: idPath.applyRadius ;
                 useLargeArc: false
                 direction: PathArc.Clockwise
             }
