@@ -30,10 +30,15 @@ CONFIG(debug,debug|release){
 }
 
 QMLSOURCES += $$PWD/appqml/graphical_effect/main.qml
+
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateBasic.qml
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateSliderControl.qml
 
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/BlendGraphicalEffect.qml
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateBlendControl.qml
+
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/BrightnessContrastGraphicalEffect.qml
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateBrightnessContrastControl.qml
 
 lupdate_only{
     SOURCES += $$QMLSOURCES
