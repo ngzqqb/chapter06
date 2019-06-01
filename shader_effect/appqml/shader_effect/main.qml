@@ -1,8 +1,10 @@
 ﻿/* appqml/shader_effect/main.qml */
 import QtQuick 2.12
 import QtQuick.Controls 2.12
+
 /*begin:import*/
 import theqml_the_debug.sstd.styled.app 1.0
+import theqml_the_debug.qml_files_dir_loader_module 1.0
 /*end:import*/
 
 StyledApplicationWindow {
@@ -13,6 +15,22 @@ StyledApplicationWindow {
 
     Component.onCompleted: {
     }
+
+    QmlFilesDirLoader{
+        anchors.fill : parent
+        qmlFilesDir  : "EffectFiles"
+    }
+
+    /*begin:debug*/
+    Timer{
+        interval: 1500;
+        running: true;
+        repeat: true
+        onTriggered: {
+            GlobalAppData.isDark = !GlobalAppData.isDark;
+        }
+    }
+    /*end:debug*/
 
 }
 
