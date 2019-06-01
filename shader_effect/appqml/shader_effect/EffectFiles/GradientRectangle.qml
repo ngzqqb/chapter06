@@ -33,8 +33,8 @@ out vec4 fragColor   /*输出值*/    ;
 uniform float qt_Opacity/*透明度*/ ;
 
 void main() {
-vec4 varColor  = vec4( qt_TexCoord0.x ,  qt_TexCoord0.y , 0.5 , 1);
-fragColor = varColor * qt_Opacity;
+    vec4 varColor  = vec4( qt_TexCoord0.x ,  qt_TexCoord0.y , 0.5 , 1);
+    fragColor = varColor * qt_Opacity;
 }
 
 "
