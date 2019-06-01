@@ -33,6 +33,7 @@ QMLSOURCES += $$PWD/appqml/qtquick_shapes/main.qml
 
 QMLSOURCES += $$PWD/appqml/qtquick_shapes/DrawShapes/PrivateBasic.qml
 QMLSOURCES += $$PWD/appqml/qtquick_shapes/DrawShapes/DrawTriangle.qml
+QMLSOURCES += $$PWD/appqml/qtquick_shapes/DrawShapes/RoundRectangle.qml
 
 lupdate_only{
     SOURCES += $$QMLSOURCES
