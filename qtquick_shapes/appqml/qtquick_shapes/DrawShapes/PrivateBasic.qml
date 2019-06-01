@@ -8,8 +8,8 @@ import theqml_the_debug.sstd.styled.app 1.0
 
 StyledWindow {
 
-    width: 360
-    height: 512
+    width: 512
+    height: 360
     visible: true
 
 }

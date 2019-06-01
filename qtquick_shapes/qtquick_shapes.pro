@@ -32,6 +32,7 @@ CONFIG(debug,debug|release){
 QMLSOURCES += $$PWD/appqml/qtquick_shapes/main.qml
 
 QMLSOURCES += $$PWD/appqml/qtquick_shapes/DrawShapes/PrivateBasic.qml
+QMLSOURCES += $$PWD/appqml/qtquick_shapes/DrawShapes/DrawTriangle.qml
 
 lupdate_only{
     SOURCES += $$QMLSOURCES

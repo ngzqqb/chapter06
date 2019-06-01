@@ -21,6 +21,17 @@ StyledApplicationWindow {
     Component.onCompleted: {
     }
 
+    /*begin:debug*/
+    Timer{
+        interval: 1500;
+        running: true;
+        repeat: true
+        onTriggered: {
+            GlobalAppData.isDark = !GlobalAppData.isDark;
+        }
+    }
+    /*end:debug*/
+
 }
 
 /*endl_input_of_latex_for_clanguage_lick*/
