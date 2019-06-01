@@ -31,6 +31,7 @@ CONFIG(debug,debug|release){
 
 QMLSOURCES += $$PWD/appqml/shader_effect/main.qml
 QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/PrivateBasic.qml
+QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/GradientRectangle.qml
 
 lupdate_only{
     SOURCES += $$QMLSOURCES
