@@ -1,4 +1,4 @@
-import QtQuick 2.12
+﻿import QtQuick 2.12
 import QtGraphicalEffects 1.12
 
 PrivateBasic{
@@ -29,7 +29,6 @@ PrivateBasic{
 
 /*endl_input_of_latex_for_clanguage_lick*/
 
-//  
+//
 // 项目移植自 ：
 // https://github.com/ngzHappy/QtQmlBook/tree/master/chapter06
-

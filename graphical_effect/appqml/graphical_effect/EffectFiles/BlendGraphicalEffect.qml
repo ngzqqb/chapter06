@@ -40,6 +40,3 @@ PrivateBasic{
 //混合
 // 项目移植自 ：
 // https://github.com/ngzHappy/QtQmlBook/tree/master/chapter06/blend_effect
-
-
-

@@ -37,4 +37,3 @@ PrivateBasic{
 
 /*endl_input_of_latex_for_clanguage_lick*/
 /*Material Style*/
-
