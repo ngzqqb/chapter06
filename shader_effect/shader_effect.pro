@@ -32,6 +32,9 @@ CONFIG(debug,debug|release){
 QMLSOURCES += $$PWD/appqml/shader_effect/main.qml
 QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/PrivateBasic.qml
 QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/GradientRectangle.qml
+QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/TimeredGradientRectangle.qml
+QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/ShaderEffectSourceFile.qml
+QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/GrayImage.qml
 
 lupdate_only{
     SOURCES += $$QMLSOURCES
