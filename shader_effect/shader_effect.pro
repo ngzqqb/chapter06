@@ -35,6 +35,7 @@ QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/GradientRectangle.qml
 QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/TimeredGradientRectangle.qml
 QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/ShaderEffectSourceFile.qml
 QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/GrayImage.qml
+QMLSOURCES += $$PWD/appqml/shader_effect/EffectFiles/LayerToItem.qml
 
 lupdate_only{
     SOURCES += $$QMLSOURCES
