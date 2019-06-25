@@ -54,6 +54,9 @@ QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateDesaturateControl
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/DirectionalBlurGraphicalEffect.qml
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateDirectionalblurControl.qml
 
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/DisplaceGraphicalEffect.qml
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateDisplaceControl.qml
+
 lupdate_only{
     SOURCES += $$QMLSOURCES
 }
