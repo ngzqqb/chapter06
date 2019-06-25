@@ -51,6 +51,9 @@ QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/ConicalGradientGraphical
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/DesaturateGraphicalEffect.qml
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateDesaturateControl.qml
 
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/DirectionalBlurGraphicalEffect.qml
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateDirectionalblurControl.qml
+
 lupdate_only{
     SOURCES += $$QMLSOURCES
 }
