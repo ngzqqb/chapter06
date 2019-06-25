@@ -9,7 +9,7 @@ PrivateBasic {
         width: parent.width * 0.8;
         height: parent.height * 0.8;
         anchors.centerIn: parent
-        source: "image.jpg"
+        source: "tree.jpg"
         visible: false
         fillMode: Image.PreserveAspectFit
         id : idImage
@@ -19,7 +19,7 @@ PrivateBasic {
         width: parent.width * 0.8;
         height: parent.height * 0.8;
         anchors.centerIn: parent
-        source: "image.png"
+        source: "tree.png"
         visible: false
         fillMode: Image.PreserveAspectFit
         id : idImageMask
