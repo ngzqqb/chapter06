@@ -31,6 +31,7 @@ PrivateBasic{
 
     PrivateBlendControl {
         id : idBlendControl
+        width : 200
     }
 
 }
