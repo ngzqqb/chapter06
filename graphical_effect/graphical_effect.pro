@@ -46,6 +46,11 @@ QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateColorizeControl.q
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/ColoroverlayGraphicalEffect.qml
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateColoroverlayControl.qml
 
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/ConicalGradientGraphicalEffect.qml
+
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/DesaturateGraphicalEffect.qml
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateDesaturateControl.qml
+
 lupdate_only{
     SOURCES += $$QMLSOURCES
 }
