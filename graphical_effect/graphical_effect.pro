@@ -43,6 +43,9 @@ QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateBrightnessContras
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/ColorizeGraphicalEffect.qml
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateColorizeControl.qml
 
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/ColoroverlayGraphicalEffect.qml
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateColoroverlayControl.qml
+
 lupdate_only{
     SOURCES += $$QMLSOURCES
 }
