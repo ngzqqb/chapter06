@@ -57,6 +57,9 @@ QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateDirectionalblurCo
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/DisplaceGraphicalEffect.qml
 QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/PrivateDisplaceControl.qml
 
+QMLSOURCES += $$PWD/appqml/graphical_effect/EffectFiles/DropShadowGraphicalEffect.qml
+
+
 lupdate_only{
     SOURCES += $$QMLSOURCES
 }
