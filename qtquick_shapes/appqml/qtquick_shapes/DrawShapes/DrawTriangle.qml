@@ -22,7 +22,7 @@ PrivateBasic{
             strokeWidth: 4/*线宽*/
             strokeColor: GlobalAppData.color(GlobalAppData.Red,
                              GlobalAppData.isDark?GlobalAppData.Shade200:GlobalAppData.Shade500) /*线颜色*/
-            fillColor: GlobalAppData.color(GlobalAppData.Blue, 
+            fillColor: GlobalAppData.color(GlobalAppData.Blue,
                              GlobalAppData.isDark?GlobalAppData.Shade200:GlobalAppData.Shade500) /*填充颜色*/
 
             startX: 0.03*idShape.width;
